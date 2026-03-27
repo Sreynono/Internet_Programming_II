@@ -4,6 +4,7 @@ import { CreateReceiptDto } from './dto/create-receipt.dto';
 import { UpdateReceiptDto } from './dto/update-receipt.dto';
 import { ApiKeyGuard } from 'src/common/guards/api-key.guard';
 
+
 @UseGuards(ApiKeyGuard)
 @Controller('receipts')
 export class ReceiptsController {
